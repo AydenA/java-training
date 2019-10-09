@@ -7,8 +7,8 @@ public class MatrixTraining {
      * eg: {{0, 0}, {0, 0}, {0, 0}}
      */
     public int[][] emptyIntMatrix(int lines, int columns) {
-
-        return null;
+        int[][] res = new int[lines][columns];
+        return res;
     }
 
     /**
@@ -18,8 +18,8 @@ public class MatrixTraining {
      * eg: {{null, null, null}, {null, null, null}}
      */
     public String[][] emptyStringMatrix(int lines, int columns) {
-
-        return null;
+      String[][] res = new String[lines][columns];
+        return res;
     }
 
     /**
@@ -29,8 +29,8 @@ public class MatrixTraining {
      * @return an int matrix with a, b and c arrays
      */
     public int[][] intMatrix(int[] a, int[] b, int[] c) {
-
-        return null;
+      int[][] res = new int[][]{a,b,c};
+        return res;
     }
 
     /**
@@ -40,8 +40,8 @@ public class MatrixTraining {
      * @return a String matrix with a, b and c arrays
      */
     public String[][] stringMatrix(String[] a, String[] b, String[] c) {
-
-        return null;
+      String[][] res = new String[][]{a,b,c};
+        return res;
     }
 
     /**
@@ -49,8 +49,7 @@ public class MatrixTraining {
      * @return number of matrix lines, eg: 3
      */
     public int height(int[][] matrix) {
-
-        return 0;
+        return matrix.length;
     }
 
     /**
@@ -58,8 +57,7 @@ public class MatrixTraining {
      * @return number of matrix columns, eg: 2
      */
     public int width(int[][] matrix) {
-
-        return 0;
+        return matrix[0].length;
     }
 
     /**
@@ -70,7 +68,7 @@ public class MatrixTraining {
      */
     public int valueAtPosition(int[][] matrix, int line, int column) {
 
-        return 0;
+        return matrix[line][column];
     }
 
     /**
